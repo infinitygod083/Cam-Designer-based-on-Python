@@ -1,6 +1,6 @@
 # Cam-Designer-based-on-Python
 ### 声明：
-这是一个专门用于大学机械原理课程设计中关于凸轮设计部分的开源设计程序，基于Python 3.11
+这是一个专门用于大学机械原理课程设计中关于凸轮设计部分的开源设计程序，基于Python3.11
 
 使用本程序需要Python3.7及以上版本，需要安装Matplotlib与Numpy两个库
 
