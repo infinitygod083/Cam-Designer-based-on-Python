@@ -49,7 +49,7 @@ kc = 0  #切换主题计数
 '''凸轮生成代码部分'''
 
 
-def on_buttom0_click():
+def on_button0_click():
     '''数值全局设置'''
     global k
     global r0
@@ -164,7 +164,7 @@ def on_buttom0_click():
 '''主题切换代码部分'''
 
 
-def on_buttom1_click():
+def on_button1_click():
     global kc
     if kc == 0:
         root.configure(bg="#252525")
@@ -213,7 +213,7 @@ def on_buttom1_click():
 '''链接Github代码部分'''
 
 
-def on_buttom2_click():
+def on_button2_click():
     wb.open('https://github.com/infinitygod083/Cam-Designer-based-on-Python',
             new=1,
             autoraise=True)
@@ -334,9 +334,9 @@ def draw_graph():
     plt.show()
 
 '''GUI界面布局设置'''
-buttom0 = tk.Button(root, text="生成新凸轮", command=on_buttom0_click)
-buttom1 = tk.Button(root, text="切换背景色", command=on_buttom1_click)
-buttom2 = tk.Button(root, text="源代码主页", command=on_buttom2_click)
+button0 = tk.Button(root, text="生成新凸轮", command=on_button0_click)
+button1 = tk.Button(root, text="切换背景色", command=on_button1_click)
+button2 = tk.Button(root, text="源代码主页", command=on_button2_click)
 
 la0.place(x=0, y=15),
 in0.place(x=235, y=15)
@@ -356,8 +356,8 @@ la7.place(x=0, y=365)
 in7.place(x=235, y=365)
 la8.place(x=0, y=415)
 in8.place(x=235, y=415)
-buttom0.place(x=165, y=465)
-buttom1.place(x=65, y=465)
-buttom2.place(x=265, y=465)
+button0.place(x=165, y=465)
+button1.place(x=65, y=465)
+button2.place(x=265, y=465)
 
 root.mainloop()
